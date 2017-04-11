@@ -1,0 +1,883 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FBA5CE63B3B6A91950AEFAE /* libPods-ASHEBShop.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D1661430090D861F4866DFC /* libPods-ASHEBShop.a */; };
+		A923CEC41E9C7BDE00C7246B /* cart.png in Resources */ = {isa = PBXBuildFile; fileRef = A923CEC31E9C7BDE00C7246B /* cart.png */; };
+		A923CEC61E9CA6BE00C7246B /* icon1024.png in Resources */ = {isa = PBXBuildFile; fileRef = A923CEC51E9CA6BE00C7246B /* icon1024.png */; };
+		A92BC6421E7BCD490019B435 /* ASHNetWorkManagerImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = A92BC6401E7BCD490019B435 /* ASHNetWorkManagerImpl.m */; };
+		A92BC6451E7BD4BA0019B435 /* ASHPropertyEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = A92BC6441E7BD4BA0019B435 /* ASHPropertyEntity.m */; };
+		A92BC6481E7FF7B00019B435 /* yw_1222.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A92BC6471E7FF7AF0019B435 /* yw_1222.jpg */; };
+		A92BC65E1E7FF8760019B435 /* AlibabaAuthExt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A92BC64B1E7FF8760019B435 /* AlibabaAuthExt.framework */; };
+		A92BC65F1E7FF8760019B435 /* AlibabaAuthSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A92BC64C1E7FF8760019B435 /* AlibabaAuthSDK.bundle */; };
+		A92BC6601E7FF8760019B435 /* AlibabaAuthSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A92BC64D1E7FF8760019B435 /* AlibabaAuthSDK.framework */; };
+		A92BC6611E7FF8760019B435 /* AlibcLinkPartnerSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A92BC64E1E7FF8760019B435 /* AlibcLinkPartnerSDK.framework */; };
+		A92BC6621E7FF8760019B435 /* AlibcTradeBiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A92BC64F1E7FF8760019B435 /* AlibcTradeBiz.framework */; };
+		A92BC6631E7FF8760019B435 /* AlibcTradeCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A92BC6501E7FF8760019B435 /* AlibcTradeCommon.framework */; };
+		A92BC6641E7FF8760019B435 /* AlibcTradeSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A92BC6511E7FF8760019B435 /* AlibcTradeSDK.framework */; };
+		A92BC6651E7FF8760019B435 /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A92BC6521E7FF8760019B435 /* AlipaySDK.bundle */; };
+		A92BC6661E7FF8760019B435 /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A92BC6531E7FF8760019B435 /* AlipaySDK.framework */; };
+		A92BC6671E7FF8760019B435 /* ALPLinkPartnerSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A92BC6541E7FF8760019B435 /* ALPLinkPartnerSDK.bundle */; };
+		A92BC6681E7FF8760019B435 /* NBResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A92BC6551E7FF8760019B435 /* NBResource.bundle */; };
+		A92BC6691E7FF8760019B435 /* OpenMtopExt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A92BC6561E7FF8760019B435 /* OpenMtopExt.framework */; };
+		A92BC66A1E7FF8760019B435 /* OpenMtopSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A92BC6571E7FF8760019B435 /* OpenMtopSDK.framework */; };
+		A92BC66B1E7FF8760019B435 /* SecurityGuardSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A92BC6581E7FF8760019B435 /* SecurityGuardSDK.framework */; };
+		A92BC66C1E7FF8760019B435 /* SGMain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A92BC6591E7FF8760019B435 /* SGMain.framework */; };
+		A92BC66D1E7FF8760019B435 /* SGNoCaptcha.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A92BC65A1E7FF8760019B435 /* SGNoCaptcha.framework */; };
+		A92BC66E1E7FF8760019B435 /* SGSecurityBody.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A92BC65B1E7FF8760019B435 /* SGSecurityBody.framework */; };
+		A92BC66F1E7FF8760019B435 /* UTDID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A92BC65C1E7FF8760019B435 /* UTDID.framework */; };
+		A92BC6701E7FF8760019B435 /* UTMini.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A92BC65D1E7FF8760019B435 /* UTMini.framework */; };
+		A92BC6741E7FFA460019B435 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A92BC6731E7FFA460019B435 /* CoreTelephony.framework */; };
+		A92BC6761E7FFA6C0019B435 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A92BC6751E7FFA6C0019B435 /* CoreMotion.framework */; };
+		A9318F261E822B2800E66569 /* set.png in Resources */ = {isa = PBXBuildFile; fileRef = A9318F251E822B2800E66569 /* set.png */; };
+		A93EECDA1E78EE26001378B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A93EECD91E78EE26001378B1 /* main.m */; };
+		A93EECDD1E78EE26001378B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A93EECDC1E78EE26001378B1 /* AppDelegate.m */; };
+		A93EECE01E78EE26001378B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93EECDF1E78EE26001378B1 /* ViewController.m */; };
+		A93EECE31E78EE26001378B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A93EECE11E78EE26001378B1 /* Main.storyboard */; };
+		A93EECE51E78EE26001378B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A93EECE41E78EE26001378B1 /* Assets.xcassets */; };
+		A93EECE81E78EE26001378B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A93EECE61E78EE26001378B1 /* LaunchScreen.storyboard */; };
+		A93EECF91E791A41001378B1 /* UIColor+CustomColor.m in Sources */ = {isa = PBXBuildFile; fileRef = A93EECF81E791A41001378B1 /* UIColor+CustomColor.m */; };
+		A93EECFF1E7921E0001378B1 /* UIImage+ASHUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A93EECFE1E7921E0001378B1 /* UIImage+ASHUtil.m */; };
+		A93EED041E792B82001378B1 /* meiyou1.png in Resources */ = {isa = PBXBuildFile; fileRef = A93EED031E792B82001378B1 /* meiyou1.png */; };
+		A93EED0E1E7935C4001378B1 /* ShopItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A93EED0C1E7935C4001378B1 /* ShopItemCell.m */; };
+		A93EED0F1E7935C4001378B1 /* ShopItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A93EED0D1E7935C4001378B1 /* ShopItemCell.xib */; };
+		A93EED121E793D12001378B1 /* UILabel+ASHUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A93EED111E793D12001378B1 /* UILabel+ASHUtil.m */; };
+		A98F76A71E94869400916E79 /* ASHBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A98F76A61E94869400916E79 /* ASHBaseViewModel.m */; };
+		A98F76AA1E948E8100916E79 /* ASHHomeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A98F76A91E948E8100916E79 /* ASHHomeViewModel.m */; };
+		A98F76AD1E948EA800916E79 /* ASHBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A98F76AC1E948EA800916E79 /* ASHBaseModel.m */; };
+		A98F76B01E9497EF00916E79 /* ASHHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A98F76AF1E9497EF00916E79 /* ASHHomeModel.m */; };
+		A98F76B31E94C07A00916E79 /* ASHNetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = A98F76B21E94C07A00916E79 /* ASHNetWork.m */; };
+		A98F76B71E94C8DE00916E79 /* ASHPublicKey.m in Sources */ = {isa = PBXBuildFile; fileRef = A98F76B61E94C8DE00916E79 /* ASHPublicKey.m */; };
+		A98F76BA1E94CB8A00916E79 /* ASHCommonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A98F76B91E94CB8A00916E79 /* ASHCommonUtil.m */; };
+		A98F76C01E94CC5200916E79 /* NSBundle+ASHVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = A98F76BF1E94CC5200916E79 /* NSBundle+ASHVersion.m */; };
+		A98F76C31E9514F200916E79 /* NSString+ASHJson.m in Sources */ = {isa = PBXBuildFile; fileRef = A98F76C21E9514F200916E79 /* NSString+ASHJson.m */; };
+		A9D0D1901E95E2840047CB88 /* backgroud1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A9D0D18F1E95E2840047CB88 /* backgroud1.jpg */; };
+		A9D0D1921E95E2D70047CB88 /* backgroud2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A9D0D1911E95E2D70047CB88 /* backgroud2.jpg */; };
+		A9D0D1941E95E40D0047CB88 /* backgroud3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A9D0D1931E95E40D0047CB88 /* backgroud3.jpg */; };
+		A9D0D1971E95E5730047CB88 /* backgroud4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A9D0D1951E95E5730047CB88 /* backgroud4.jpg */; };
+		A9D0D1981E95E5730047CB88 /* backgroud5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A9D0D1961E95E5730047CB88 /* backgroud5.jpg */; };
+		A9D0D19A1E95E6460047CB88 /* backgroud6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A9D0D1991E95E6460047CB88 /* backgroud6.jpg */; };
+		A9D0D19C1E95E69F0047CB88 /* backgroud7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A9D0D19B1E95E69F0047CB88 /* backgroud7.jpg */; };
+		A9D0D19E1E95E7020047CB88 /* backgroud8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A9D0D19D1E95E7020047CB88 /* backgroud8.jpg */; };
+		A9D0D1A11E95E7440047CB88 /* backgroud9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A9D0D19F1E95E7440047CB88 /* backgroud9.jpg */; };
+		A9D0D1A21E95E7440047CB88 /* backgroud10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A9D0D1A01E95E7440047CB88 /* backgroud10.jpg */; };
+		A9D0D1A51E95E7C60047CB88 /* backgroud11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A9D0D1A31E95E7C60047CB88 /* backgroud11.jpg */; };
+		A9D0D1A61E95E7C60047CB88 /* backgroud12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A9D0D1A41E95E7C60047CB88 /* backgroud12.jpg */; };
+		A9D0D1A81E95E8810047CB88 /* backgroud13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A9D0D1A71E95E8810047CB88 /* backgroud13.jpg */; };
+		A9D0D1B11E96164F0047CB88 /* ASHSettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D0D1B01E96164F0047CB88 /* ASHSettingVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2518671DC9C2B59C734E8D27 /* Pods-ASHEBShop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASHEBShop.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASHEBShop/Pods-ASHEBShop.release.xcconfig"; sourceTree = "<group>"; };
+		9D1661430090D861F4866DFC /* libPods-ASHEBShop.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ASHEBShop.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A923CEC31E9C7BDE00C7246B /* cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cart.png; sourceTree = "<group>"; };
+		A923CEC51E9CA6BE00C7246B /* icon1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon1024.png; sourceTree = "<group>"; };
+		A92BC63F1E7BCD490019B435 /* ASHNetWorkManagerImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASHNetWorkManagerImpl.h; sourceTree = "<group>"; };
+		A92BC6401E7BCD490019B435 /* ASHNetWorkManagerImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASHNetWorkManagerImpl.m; sourceTree = "<group>"; };
+		A92BC6411E7BCD490019B435 /* ASHNetWorkManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASHNetWorkManagerProtocol.h; sourceTree = "<group>"; };
+		A92BC6431E7BD4BA0019B435 /* ASHPropertyEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASHPropertyEntity.h; sourceTree = "<group>"; };
+		A92BC6441E7BD4BA0019B435 /* ASHPropertyEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASHPropertyEntity.m; sourceTree = "<group>"; };
+		A92BC6461E7BD50D0019B435 /* ASHTypedefDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASHTypedefDefine.h; sourceTree = "<group>"; };
+		A92BC6471E7FF7AF0019B435 /* yw_1222.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yw_1222.jpg; sourceTree = "<group>"; };
+		A92BC64B1E7FF8760019B435 /* AlibabaAuthExt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlibabaAuthExt.framework; sourceTree = "<group>"; };
+		A92BC64C1E7FF8760019B435 /* AlibabaAuthSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlibabaAuthSDK.bundle; sourceTree = "<group>"; };
+		A92BC64D1E7FF8760019B435 /* AlibabaAuthSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlibabaAuthSDK.framework; sourceTree = "<group>"; };
+		A92BC64E1E7FF8760019B435 /* AlibcLinkPartnerSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlibcLinkPartnerSDK.framework; sourceTree = "<group>"; };
+		A92BC64F1E7FF8760019B435 /* AlibcTradeBiz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlibcTradeBiz.framework; sourceTree = "<group>"; };
+		A92BC6501E7FF8760019B435 /* AlibcTradeCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlibcTradeCommon.framework; sourceTree = "<group>"; };
+		A92BC6511E7FF8760019B435 /* AlibcTradeSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlibcTradeSDK.framework; sourceTree = "<group>"; };
+		A92BC6521E7FF8760019B435 /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		A92BC6531E7FF8760019B435 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		A92BC6541E7FF8760019B435 /* ALPLinkPartnerSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ALPLinkPartnerSDK.bundle; sourceTree = "<group>"; };
+		A92BC6551E7FF8760019B435 /* NBResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = NBResource.bundle; sourceTree = "<group>"; };
+		A92BC6561E7FF8760019B435 /* OpenMtopExt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenMtopExt.framework; sourceTree = "<group>"; };
+		A92BC6571E7FF8760019B435 /* OpenMtopSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenMtopSDK.framework; sourceTree = "<group>"; };
+		A92BC6581E7FF8760019B435 /* SecurityGuardSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SecurityGuardSDK.framework; sourceTree = "<group>"; };
+		A92BC6591E7FF8760019B435 /* SGMain.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SGMain.framework; sourceTree = "<group>"; };
+		A92BC65A1E7FF8760019B435 /* SGNoCaptcha.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SGNoCaptcha.framework; sourceTree = "<group>"; };
+		A92BC65B1E7FF8760019B435 /* SGSecurityBody.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SGSecurityBody.framework; sourceTree = "<group>"; };
+		A92BC65C1E7FF8760019B435 /* UTDID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UTDID.framework; sourceTree = "<group>"; };
+		A92BC65D1E7FF8760019B435 /* UTMini.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UTMini.framework; sourceTree = "<group>"; };
+		A92BC6711E7FFA060019B435 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		A92BC6731E7FFA460019B435 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		A92BC6751E7FFA6C0019B435 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		A9318F251E822B2800E66569 /* set.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = set.png; sourceTree = "<group>"; };
+		A9321A1D1E7AC7E0002D3FA2 /* ASHEBShopMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASHEBShopMacros.h; sourceTree = "<group>"; };
+		A93EECD51E78EE26001378B1 /* ASHEBShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASHEBShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A93EECD91E78EE26001378B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A93EECDB1E78EE26001378B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A93EECDC1E78EE26001378B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A93EECDE1E78EE26001378B1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A93EECDF1E78EE26001378B1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A93EECE21E78EE26001378B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A93EECE41E78EE26001378B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A93EECE71E78EE26001378B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A93EECE91E78EE26001378B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A93EECF71E791A41001378B1 /* UIColor+CustomColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CustomColor.h"; sourceTree = "<group>"; };
+		A93EECF81E791A41001378B1 /* UIColor+CustomColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CustomColor.m"; sourceTree = "<group>"; };
+		A93EECFD1E7921E0001378B1 /* UIImage+ASHUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ASHUtil.h"; sourceTree = "<group>"; };
+		A93EECFE1E7921E0001378B1 /* UIImage+ASHUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ASHUtil.m"; sourceTree = "<group>"; };
+		A93EED031E792B82001378B1 /* meiyou1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meiyou1.png; sourceTree = "<group>"; };
+		A93EED0B1E7935C4001378B1 /* ShopItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopItemCell.h; sourceTree = "<group>"; };
+		A93EED0C1E7935C4001378B1 /* ShopItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopItemCell.m; sourceTree = "<group>"; };
+		A93EED0D1E7935C4001378B1 /* ShopItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShopItemCell.xib; sourceTree = "<group>"; };
+		A93EED101E793D12001378B1 /* UILabel+ASHUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ASHUtil.h"; sourceTree = "<group>"; };
+		A93EED111E793D12001378B1 /* UILabel+ASHUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ASHUtil.m"; sourceTree = "<group>"; };
+		A93EED131E794199001378B1 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A98F76A51E94869400916E79 /* ASHBaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASHBaseViewModel.h; sourceTree = "<group>"; };
+		A98F76A61E94869400916E79 /* ASHBaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASHBaseViewModel.m; sourceTree = "<group>"; };
+		A98F76A81E948E8100916E79 /* ASHHomeViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASHHomeViewModel.h; path = ../Model/ASHHomeViewModel.h; sourceTree = "<group>"; };
+		A98F76A91E948E8100916E79 /* ASHHomeViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASHHomeViewModel.m; path = ../Model/ASHHomeViewModel.m; sourceTree = "<group>"; };
+		A98F76AB1E948EA800916E79 /* ASHBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASHBaseModel.h; path = ../Controller/ASHBaseModel.h; sourceTree = "<group>"; };
+		A98F76AC1E948EA800916E79 /* ASHBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASHBaseModel.m; path = ../Controller/ASHBaseModel.m; sourceTree = "<group>"; };
+		A98F76AE1E9497EF00916E79 /* ASHHomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASHHomeModel.h; path = ../Controller/ASHHomeModel.h; sourceTree = "<group>"; };
+		A98F76AF1E9497EF00916E79 /* ASHHomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASHHomeModel.m; path = ../Controller/ASHHomeModel.m; sourceTree = "<group>"; };
+		A98F76B11E94C07A00916E79 /* ASHNetWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASHNetWork.h; sourceTree = "<group>"; };
+		A98F76B21E94C07A00916E79 /* ASHNetWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASHNetWork.m; sourceTree = "<group>"; };
+		A98F76B51E94C8DE00916E79 /* ASHPublicKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASHPublicKey.h; sourceTree = "<group>"; };
+		A98F76B61E94C8DE00916E79 /* ASHPublicKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASHPublicKey.m; sourceTree = "<group>"; };
+		A98F76B81E94CB8A00916E79 /* ASHCommonUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASHCommonUtil.h; sourceTree = "<group>"; };
+		A98F76B91E94CB8A00916E79 /* ASHCommonUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASHCommonUtil.m; sourceTree = "<group>"; };
+		A98F76BE1E94CC5200916E79 /* NSBundle+ASHVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+ASHVersion.h"; sourceTree = "<group>"; };
+		A98F76BF1E94CC5200916E79 /* NSBundle+ASHVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+ASHVersion.m"; sourceTree = "<group>"; };
+		A98F76C11E9514F200916E79 /* NSString+ASHJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ASHJson.h"; sourceTree = "<group>"; };
+		A98F76C21E9514F200916E79 /* NSString+ASHJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ASHJson.m"; sourceTree = "<group>"; };
+		A9D0D18F1E95E2840047CB88 /* backgroud1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroud1.jpg; sourceTree = "<group>"; };
+		A9D0D1911E95E2D70047CB88 /* backgroud2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroud2.jpg; sourceTree = "<group>"; };
+		A9D0D1931E95E40D0047CB88 /* backgroud3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroud3.jpg; sourceTree = "<group>"; };
+		A9D0D1951E95E5730047CB88 /* backgroud4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroud4.jpg; sourceTree = "<group>"; };
+		A9D0D1961E95E5730047CB88 /* backgroud5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroud5.jpg; sourceTree = "<group>"; };
+		A9D0D1991E95E6460047CB88 /* backgroud6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroud6.jpg; sourceTree = "<group>"; };
+		A9D0D19B1E95E69F0047CB88 /* backgroud7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroud7.jpg; sourceTree = "<group>"; };
+		A9D0D19D1E95E7020047CB88 /* backgroud8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroud8.jpg; sourceTree = "<group>"; };
+		A9D0D19F1E95E7440047CB88 /* backgroud9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroud9.jpg; sourceTree = "<group>"; };
+		A9D0D1A01E95E7440047CB88 /* backgroud10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroud10.jpg; sourceTree = "<group>"; };
+		A9D0D1A31E95E7C60047CB88 /* backgroud11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroud11.jpg; sourceTree = "<group>"; };
+		A9D0D1A41E95E7C60047CB88 /* backgroud12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroud12.jpg; sourceTree = "<group>"; };
+		A9D0D1A71E95E8810047CB88 /* backgroud13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroud13.jpg; sourceTree = "<group>"; };
+		A9D0D1AF1E96164F0047CB88 /* ASHSettingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASHSettingVC.h; sourceTree = "<group>"; };
+		A9D0D1B01E96164F0047CB88 /* ASHSettingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASHSettingVC.m; sourceTree = "<group>"; };
+		E92DC0095FB10F58826E69C8 /* Pods-ASHEBShop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASHEBShop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASHEBShop/Pods-ASHEBShop.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A93EECD21E78EE26001378B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A92BC6761E7FFA6C0019B435 /* CoreMotion.framework in Frameworks */,
+				A92BC6741E7FFA460019B435 /* CoreTelephony.framework in Frameworks */,
+				A92BC6611E7FF8760019B435 /* AlibcLinkPartnerSDK.framework in Frameworks */,
+				A92BC6661E7FF8760019B435 /* AlipaySDK.framework in Frameworks */,
+				A92BC6701E7FF8760019B435 /* UTMini.framework in Frameworks */,
+				A92BC6601E7FF8760019B435 /* AlibabaAuthSDK.framework in Frameworks */,
+				A92BC66C1E7FF8760019B435 /* SGMain.framework in Frameworks */,
+				A92BC6691E7FF8760019B435 /* OpenMtopExt.framework in Frameworks */,
+				A92BC6641E7FF8760019B435 /* AlibcTradeSDK.framework in Frameworks */,
+				A92BC66E1E7FF8760019B435 /* SGSecurityBody.framework in Frameworks */,
+				A92BC66A1E7FF8760019B435 /* OpenMtopSDK.framework in Frameworks */,
+				A92BC66F1E7FF8760019B435 /* UTDID.framework in Frameworks */,
+				A92BC66B1E7FF8760019B435 /* SecurityGuardSDK.framework in Frameworks */,
+				1FBA5CE63B3B6A91950AEFAE /* libPods-ASHEBShop.a in Frameworks */,
+				A92BC65E1E7FF8760019B435 /* AlibabaAuthExt.framework in Frameworks */,
+				A92BC6631E7FF8760019B435 /* AlibcTradeCommon.framework in Frameworks */,
+				A92BC66D1E7FF8760019B435 /* SGNoCaptcha.framework in Frameworks */,
+				A92BC6621E7FF8760019B435 /* AlibcTradeBiz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A62E420C34252878F265952 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E92DC0095FB10F58826E69C8 /* Pods-ASHEBShop.debug.xcconfig */,
+				2518671DC9C2B59C734E8D27 /* Pods-ASHEBShop.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		82339F610BF666ED059FCF20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A92BC6751E7FFA6C0019B435 /* CoreMotion.framework */,
+				A92BC6731E7FFA460019B435 /* CoreTelephony.framework */,
+				A92BC6711E7FFA060019B435 /* CFNetwork.framework */,
+				9D1661430090D861F4866DFC /* libPods-ASHEBShop.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A92BC63E1E7BCD2C0019B435 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				A92BC63F1E7BCD490019B435 /* ASHNetWorkManagerImpl.h */,
+				A92BC6401E7BCD490019B435 /* ASHNetWorkManagerImpl.m */,
+				A92BC6411E7BCD490019B435 /* ASHNetWorkManagerProtocol.h */,
+				A92BC6431E7BD4BA0019B435 /* ASHPropertyEntity.h */,
+				A92BC6441E7BD4BA0019B435 /* ASHPropertyEntity.m */,
+				A98F76B11E94C07A00916E79 /* ASHNetWork.h */,
+				A98F76B21E94C07A00916E79 /* ASHNetWork.m */,
+				A98F76B81E94CB8A00916E79 /* ASHCommonUtil.h */,
+				A98F76B91E94CB8A00916E79 /* ASHCommonUtil.m */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		A92BC6491E7FF86F0019B435 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				A92BC64A1E7FF8760019B435 /* TaeSDK */,
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		A92BC64A1E7FF8760019B435 /* TaeSDK */ = {
+			isa = PBXGroup;
+			children = (
+				A92BC64B1E7FF8760019B435 /* AlibabaAuthExt.framework */,
+				A92BC64C1E7FF8760019B435 /* AlibabaAuthSDK.bundle */,
+				A92BC64D1E7FF8760019B435 /* AlibabaAuthSDK.framework */,
+				A92BC64E1E7FF8760019B435 /* AlibcLinkPartnerSDK.framework */,
+				A92BC64F1E7FF8760019B435 /* AlibcTradeBiz.framework */,
+				A92BC6501E7FF8760019B435 /* AlibcTradeCommon.framework */,
+				A92BC6511E7FF8760019B435 /* AlibcTradeSDK.framework */,
+				A92BC6521E7FF8760019B435 /* AlipaySDK.bundle */,
+				A92BC6531E7FF8760019B435 /* AlipaySDK.framework */,
+				A92BC6541E7FF8760019B435 /* ALPLinkPartnerSDK.bundle */,
+				A92BC6551E7FF8760019B435 /* NBResource.bundle */,
+				A92BC6561E7FF8760019B435 /* OpenMtopExt.framework */,
+				A92BC6571E7FF8760019B435 /* OpenMtopSDK.framework */,
+				A92BC6581E7FF8760019B435 /* SecurityGuardSDK.framework */,
+				A92BC6591E7FF8760019B435 /* SGMain.framework */,
+				A92BC65A1E7FF8760019B435 /* SGNoCaptcha.framework */,
+				A92BC65B1E7FF8760019B435 /* SGSecurityBody.framework */,
+				A92BC65C1E7FF8760019B435 /* UTDID.framework */,
+				A92BC65D1E7FF8760019B435 /* UTMini.framework */,
+			);
+			path = TaeSDK;
+			sourceTree = "<group>";
+		};
+		A93EECCC1E78EE26001378B1 = {
+			isa = PBXGroup;
+			children = (
+				A93EECD71E78EE26001378B1 /* ASHEBShop */,
+				A93EECD61E78EE26001378B1 /* Products */,
+				0A62E420C34252878F265952 /* Pods */,
+				82339F610BF666ED059FCF20 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A93EECD61E78EE26001378B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A93EECD51E78EE26001378B1 /* ASHEBShop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A93EECD71E78EE26001378B1 /* ASHEBShop */ = {
+			isa = PBXGroup;
+			children = (
+				A93EED001E792AB6001378B1 /* Resource */,
+				A93EECEF1E78EFDA001378B1 /* Classes */,
+				A93EECDB1E78EE26001378B1 /* AppDelegate.h */,
+				A93EECDC1E78EE26001378B1 /* AppDelegate.m */,
+				A93EECDE1E78EE26001378B1 /* ViewController.h */,
+				A93EECDF1E78EE26001378B1 /* ViewController.m */,
+				A93EECE11E78EE26001378B1 /* Main.storyboard */,
+				A93EECE41E78EE26001378B1 /* Assets.xcassets */,
+				A93EECE61E78EE26001378B1 /* LaunchScreen.storyboard */,
+				A93EECE91E78EE26001378B1 /* Info.plist */,
+				A93EECD81E78EE26001378B1 /* Supporting Files */,
+			);
+			path = ASHEBShop;
+			sourceTree = "<group>";
+		};
+		A93EECD81E78EE26001378B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A93EECD91E78EE26001378B1 /* main.m */,
+				A93EED131E794199001378B1 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A93EECEF1E78EFDA001378B1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A92BC6491E7FF86F0019B435 /* Vender */,
+				A93EECF61E791A29001378B1 /* Category */,
+				A93EECF51E78F0FD001378B1 /* Core */,
+				A93EECF41E78F0F6001378B1 /* Utils */,
+				A93EECF31E78F07E001378B1 /* ViewModel */,
+				A93EECF21E78F07B001378B1 /* Model */,
+				A93EECF11E78EFF7001378B1 /* Controller */,
+				A93EECF01E78EFE8001378B1 /* View */,
+			);
+			name = Classes;
+			path = Class;
+			sourceTree = "<group>";
+		};
+		A93EECF01E78EFE8001378B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A93EED051E793592001378B1 /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A93EECF11E78EFF7001378B1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A9D0D1AF1E96164F0047CB88 /* ASHSettingVC.h */,
+				A9D0D1B01E96164F0047CB88 /* ASHSettingVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A93EECF21E78F07B001378B1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A98F76AB1E948EA800916E79 /* ASHBaseModel.h */,
+				A98F76AC1E948EA800916E79 /* ASHBaseModel.m */,
+				A98F76AE1E9497EF00916E79 /* ASHHomeModel.h */,
+				A98F76AF1E9497EF00916E79 /* ASHHomeModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A93EECF31E78F07E001378B1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A98F76A51E94869400916E79 /* ASHBaseViewModel.h */,
+				A98F76A61E94869400916E79 /* ASHBaseViewModel.m */,
+				A98F76A81E948E8100916E79 /* ASHHomeViewModel.h */,
+				A98F76A91E948E8100916E79 /* ASHHomeViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A93EECF41E78F0F6001378B1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A92BC63E1E7BCD2C0019B435 /* NetWork */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A93EECF51E78F0FD001378B1 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A9321A1D1E7AC7E0002D3FA2 /* ASHEBShopMacros.h */,
+				A92BC6461E7BD50D0019B435 /* ASHTypedefDefine.h */,
+				A98F76B51E94C8DE00916E79 /* ASHPublicKey.h */,
+				A98F76B61E94C8DE00916E79 /* ASHPublicKey.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A93EECF61E791A29001378B1 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				A93EECF71E791A41001378B1 /* UIColor+CustomColor.h */,
+				A93EECF81E791A41001378B1 /* UIColor+CustomColor.m */,
+				A93EECFD1E7921E0001378B1 /* UIImage+ASHUtil.h */,
+				A93EECFE1E7921E0001378B1 /* UIImage+ASHUtil.m */,
+				A93EED101E793D12001378B1 /* UILabel+ASHUtil.h */,
+				A93EED111E793D12001378B1 /* UILabel+ASHUtil.m */,
+				A98F76BE1E94CC5200916E79 /* NSBundle+ASHVersion.h */,
+				A98F76BF1E94CC5200916E79 /* NSBundle+ASHVersion.m */,
+				A98F76C11E9514F200916E79 /* NSString+ASHJson.h */,
+				A98F76C21E9514F200916E79 /* NSString+ASHJson.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		A93EED001E792AB6001378B1 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				A923CEC51E9CA6BE00C7246B /* icon1024.png */,
+				A923CEC31E9C7BDE00C7246B /* cart.png */,
+				A9D0D19F1E95E7440047CB88 /* backgroud9.jpg */,
+				A9D0D1A01E95E7440047CB88 /* backgroud10.jpg */,
+				A9D0D1A31E95E7C60047CB88 /* backgroud11.jpg */,
+				A9D0D1A41E95E7C60047CB88 /* backgroud12.jpg */,
+				A9318F251E822B2800E66569 /* set.png */,
+				A92BC6471E7FF7AF0019B435 /* yw_1222.jpg */,
+				A93EED031E792B82001378B1 /* meiyou1.png */,
+				A9D0D18F1E95E2840047CB88 /* backgroud1.jpg */,
+				A9D0D1911E95E2D70047CB88 /* backgroud2.jpg */,
+				A9D0D1931E95E40D0047CB88 /* backgroud3.jpg */,
+				A9D0D1951E95E5730047CB88 /* backgroud4.jpg */,
+				A9D0D1961E95E5730047CB88 /* backgroud5.jpg */,
+				A9D0D1991E95E6460047CB88 /* backgroud6.jpg */,
+				A9D0D19B1E95E69F0047CB88 /* backgroud7.jpg */,
+				A9D0D19D1E95E7020047CB88 /* backgroud8.jpg */,
+				A9D0D1A71E95E8810047CB88 /* backgroud13.jpg */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		A93EED051E793592001378B1 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A93EED0B1E7935C4001378B1 /* ShopItemCell.h */,
+				A93EED0C1E7935C4001378B1 /* ShopItemCell.m */,
+				A93EED0D1E7935C4001378B1 /* ShopItemCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A93EECD41E78EE26001378B1 /* ASHEBShop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A93EECEC1E78EE26001378B1 /* Build configuration list for PBXNativeTarget "ASHEBShop" */;
+			buildPhases = (
+				F747EE6EDC87EE4368E90321 /* [CP] Check Pods Manifest.lock */,
+				A93EECD11E78EE26001378B1 /* Sources */,
+				A93EECD21E78EE26001378B1 /* Frameworks */,
+				A93EECD31E78EE26001378B1 /* Resources */,
+				0F30C3B402ABEB6A505177E6 /* [CP] Embed Pods Frameworks */,
+				79BE20313D0DECDB1CEE9005 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ASHEBShop;
+			productName = ASHEBShop;
+			productReference = A93EECD51E78EE26001378B1 /* ASHEBShop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A93EECCD1E78EE26001378B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = ash;
+				TargetAttributes = {
+					A93EECD41E78EE26001378B1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = A93EECD01E78EE26001378B1 /* Build configuration list for PBXProject "ASHEBShop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A93EECCC1E78EE26001378B1;
+			productRefGroup = A93EECD61E78EE26001378B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A93EECD41E78EE26001378B1 /* ASHEBShop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A93EECD31E78EE26001378B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9D0D1A21E95E7440047CB88 /* backgroud10.jpg in Resources */,
+				A9D0D19A1E95E6460047CB88 /* backgroud6.jpg in Resources */,
+				A9D0D1A61E95E7C60047CB88 /* backgroud12.jpg in Resources */,
+				A9D0D1921E95E2D70047CB88 /* backgroud2.jpg in Resources */,
+				A93EECE81E78EE26001378B1 /* LaunchScreen.storyboard in Resources */,
+				A9D0D1A51E95E7C60047CB88 /* backgroud11.jpg in Resources */,
+				A923CEC41E9C7BDE00C7246B /* cart.png in Resources */,
+				A93EECE51E78EE26001378B1 /* Assets.xcassets in Resources */,
+				A92BC6651E7FF8760019B435 /* AlipaySDK.bundle in Resources */,
+				A923CEC61E9CA6BE00C7246B /* icon1024.png in Resources */,
+				A9D0D1981E95E5730047CB88 /* backgroud5.jpg in Resources */,
+				A93EED0F1E7935C4001378B1 /* ShopItemCell.xib in Resources */,
+				A93EED041E792B82001378B1 /* meiyou1.png in Resources */,
+				A9D0D19C1E95E69F0047CB88 /* backgroud7.jpg in Resources */,
+				A9D0D1A81E95E8810047CB88 /* backgroud13.jpg in Resources */,
+				A9D0D1941E95E40D0047CB88 /* backgroud3.jpg in Resources */,
+				A92BC6481E7FF7B00019B435 /* yw_1222.jpg in Resources */,
+				A9D0D19E1E95E7020047CB88 /* backgroud8.jpg in Resources */,
+				A9318F261E822B2800E66569 /* set.png in Resources */,
+				A93EECE31E78EE26001378B1 /* Main.storyboard in Resources */,
+				A9D0D1901E95E2840047CB88 /* backgroud1.jpg in Resources */,
+				A9D0D1971E95E5730047CB88 /* backgroud4.jpg in Resources */,
+				A9D0D1A11E95E7440047CB88 /* backgroud9.jpg in Resources */,
+				A92BC65F1E7FF8760019B435 /* AlibabaAuthSDK.bundle in Resources */,
+				A92BC6671E7FF8760019B435 /* ALPLinkPartnerSDK.bundle in Resources */,
+				A92BC6681E7FF8760019B435 /* NBResource.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F30C3B402ABEB6A505177E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASHEBShop/Pods-ASHEBShop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79BE20313D0DECDB1CEE9005 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASHEBShop/Pods-ASHEBShop-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F747EE6EDC87EE4368E90321 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A93EECD11E78EE26001378B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9D0D1B11E96164F0047CB88 /* ASHSettingVC.m in Sources */,
+				A92BC6451E7BD4BA0019B435 /* ASHPropertyEntity.m in Sources */,
+				A93EED121E793D12001378B1 /* UILabel+ASHUtil.m in Sources */,
+				A93EECE01E78EE26001378B1 /* ViewController.m in Sources */,
+				A92BC6421E7BCD490019B435 /* ASHNetWorkManagerImpl.m in Sources */,
+				A98F76B01E9497EF00916E79 /* ASHHomeModel.m in Sources */,
+				A98F76C01E94CC5200916E79 /* NSBundle+ASHVersion.m in Sources */,
+				A98F76B31E94C07A00916E79 /* ASHNetWork.m in Sources */,
+				A98F76A71E94869400916E79 /* ASHBaseViewModel.m in Sources */,
+				A93EECDD1E78EE26001378B1 /* AppDelegate.m in Sources */,
+				A93EECF91E791A41001378B1 /* UIColor+CustomColor.m in Sources */,
+				A93EECDA1E78EE26001378B1 /* main.m in Sources */,
+				A93EED0E1E7935C4001378B1 /* ShopItemCell.m in Sources */,
+				A98F76AD1E948EA800916E79 /* ASHBaseModel.m in Sources */,
+				A98F76B71E94C8DE00916E79 /* ASHPublicKey.m in Sources */,
+				A98F76BA1E94CB8A00916E79 /* ASHCommonUtil.m in Sources */,
+				A93EECFF1E7921E0001378B1 /* UIImage+ASHUtil.m in Sources */,
+				A98F76C31E9514F200916E79 /* NSString+ASHJson.m in Sources */,
+				A98F76AA1E948E8100916E79 /* ASHHomeViewModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A93EECE11E78EE26001378B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A93EECE21E78EE26001378B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A93EECE61E78EE26001378B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A93EECE71E78EE26001378B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A93EECEA1E78EE26001378B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A93EECEB1E78EE26001378B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A93EECED1E78EE26001378B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E92DC0095FB10F58826E69C8 /* Pods-ASHEBShop.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Xiamen Linggan Fangzhou Information Technology Co., Ltd";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Xiamen Linggan Fangzhou Information Technology Co., Ltd";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ASHEBShop/Class/Vender/TaeSDK",
+				);
+				GCC_PREFIX_HEADER = ASHEBShop/PrefixHeader.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"SD_WEBP=1",
+				);
+				INFOPLIST_FILE = ASHEBShop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"AFNetworking\"",
+					"-l\"MBProgressHUD\"",
+					"-l\"MJRefresh\"",
+					"-l\"Masonry\"",
+					"-l\"ReactiveCocoa\"",
+					"-l\"SDWebImage\"",
+					"-l\"YYAsyncLayer\"",
+					"-l\"YYCache\"",
+					"-l\"YYCategories\"",
+					"-l\"YYDispatchQueuePool\"",
+					"-l\"YYModel\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"CoreFoundation\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreImage\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-lstdc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ash.ASHEBShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ccd12fb7-191c-48e6-9d1d-afad43feae6d";
+				PROVISIONING_PROFILE_SPECIFIER = "企业inhouse通用";
+				USER_HEADER_SEARCH_PATHS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		A93EECEE1E78EE26001378B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2518671DC9C2B59C734E8D27 /* Pods-ASHEBShop.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Xiamen Linggan Fangzhou Information Technology Co., Ltd";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Xiamen Linggan Fangzhou Information Technology Co., Ltd";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ASHEBShop/Class/Vender/TaeSDK",
+				);
+				GCC_PREFIX_HEADER = ASHEBShop/PrefixHeader.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"SD_WEBP=1",
+				);
+				INFOPLIST_FILE = ASHEBShop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"AFNetworking\"",
+					"-l\"MBProgressHUD\"",
+					"-l\"MJRefresh\"",
+					"-l\"Masonry\"",
+					"-l\"ReactiveCocoa\"",
+					"-l\"SDWebImage\"",
+					"-l\"YYAsyncLayer\"",
+					"-l\"YYCache\"",
+					"-l\"YYCategories\"",
+					"-l\"YYDispatchQueuePool\"",
+					"-l\"YYModel\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"CoreFoundation\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreImage\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-lstdc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ash.ASHEBShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ccd12fb7-191c-48e6-9d1d-afad43feae6d";
+				PROVISIONING_PROFILE_SPECIFIER = "企业inhouse通用";
+				USER_HEADER_SEARCH_PATHS = "$(inherited)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A93EECD01E78EE26001378B1 /* Build configuration list for PBXProject "ASHEBShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A93EECEA1E78EE26001378B1 /* Debug */,
+				A93EECEB1E78EE26001378B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A93EECEC1E78EE26001378B1 /* Build configuration list for PBXNativeTarget "ASHEBShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A93EECED1E78EE26001378B1 /* Debug */,
+				A93EECEE1E78EE26001378B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A93EECCD1E78EE26001378B1 /* Project object */;
+}
