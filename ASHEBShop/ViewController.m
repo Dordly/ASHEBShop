@@ -17,6 +17,7 @@
 #import "ASHHomeModel.h"
 #import "ASHSettingVC.h"
 #import <MJRefresh.h>
+#import <UMMobClick/MobClick.h>
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 @property (nonatomic, strong)UITableView* tableView;
 @property (nonatomic, strong)UIButton* setBtn;
@@ -24,16 +25,16 @@
 @end
 
 @implementation ViewController
-//- (void)viewWillAppear:(BOOL)animated
-//{
-//    [super viewWillAppear:animated];
-//    self.navigationController.navigationBarHidden = YES;
-//}
-//- (void)viewDidDisappear:(BOOL)animated
-//{
-//    [super viewWillAppear:animated];
-//    self.navigationController.navigationBarHidden = NO;
-//}
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    [MobClick beginLogPageView:@"shoppage"];
+}
+- (void)viewDidDisappear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    [MobClick endLogPageView:@"shoppage"];
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
@@ -97,6 +98,7 @@
     
     [[self.setBtn rac_signalForControlEvents:UIControlEventTouchUpInside] subscribeNext:^(id x) {
         @strongify(self);
+        [MobClick event:@"shopcart"];
         id<AlibcTradePage> page = [AlibcTradePageFactory myCartsPage];
         AlibcTradeShowParams* showParam = [[AlibcTradeShowParams alloc] init];
         showParam.openType = AlibcOpenTypeAuto;
@@ -165,6 +167,9 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     
+    
+    NSDictionary *dict = @{@"index" : @(indexPath.row+1)};
+    [MobClick event:@"shopclick" attributes:dict];
     
     AlibcTradeShowParams* showParam = [[AlibcTradeShowParams alloc] init];
     showParam.openType = AlibcOpenTypeAuto;

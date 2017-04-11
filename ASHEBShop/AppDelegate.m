@@ -13,6 +13,7 @@
 #import <AlibcTradeSDK/AlibcTradeSDK.h>
 #import <AlibcTradeBiz/AlibcTradeBiz.h>
 #import <AlibabaAuthSDK/ALBBSDK.h>
+#import <UMMobClick/MobClick.h>
 @interface AppDelegate ()
 
 @end
@@ -23,6 +24,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     [self initAliBC];
+    [self initUMen];
 //    UINavigationController* nav = [[UINavigationController alloc] initWithRootViewController:[ViewController new]];
 //    nav.navigationBarHidden = YES;
 //    self.window.rootViewController = nav;
@@ -30,6 +32,12 @@
     return YES;
 }
 
+- (void)initUMen
+{
+    UMConfigInstance.appKey = @"58ec79f9c62dca2aca001402";
+    UMConfigInstance.channelId = @"App Store";
+    [MobClick startWithConfigure:UMConfigInstance];
+}
 - (void)initAliBC{
     // 百川平台基础SDK初始化，加载并初始化各个业务能力插件
     [[AlibcTradeSDK sharedInstance] asyncInitWithSuccess:^{
